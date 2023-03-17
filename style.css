@@ -1,0 +1,148 @@
+/* font */
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif&family=Rubik&display=swap');
+body{
+  font-family: 'Oswald', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* backgrond */
+body{
+  background-color: #EEE5D2;
+}
+
+/* location */
+.location {
+  background-color: #F7F7F7;
+  transition: 1s;
+  margin-top: 60px;
+}
+
+.linklocation {
+  color: black;
+}
+
+.location:hover {
+  font-size: 105%;
+}
+
+.linked_in_icon {
+  padding-right: 50px;
+}
+
+
+
+
+/* imageslide */
+.slider-text {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 50%;
+}
+
+#slider {
+  overflow: hidden;
+}
+
+@media (min-width:1000px) {
+  #slider{
+    width: 100%;
+    height: 55%;
+  }
+
+}
+
+
+/* image-news-slide */
+#slider2 {
+  overflow: hidden;
+}
+
+@media (min-width:1000px) {
+  #slider2{
+    width: 100%;
+    height: 40vh;
+  }
+
+}
+.slider-text-2{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+ }
+
+
+/* copyright */
+.copyright {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* service-content */
+.title-content{
+  border: 2px solid orangered;
+}
+.service-content{
+  width: 320px;
+  height: 230px;
+  text-align: center;
+  align-items: center;
+  color: white;
+  background-color: #2C2C2C;
+  padding-top: 33%;
+  border-radius: 7%;
+  transition: 0.5s;
+}
+.service-content:hover{
+  font-size: 105%;
+  background-color: rgb(226, 84, 2);
+}
+.img-service{
+  border-radius: 7%;
+  width: 320px;
+  height: 230px;
+  transition: transform 0.7s;
+}
+.img-service:hover{
+  transform: scale(1.03)
+}
+
+/* clients-logo */
+.clients-logo{
+  transition: transform 0.7s;
+}
+.clients-logo:hover{
+  transform: scale(1.06);
+}
+
+/* footer */
+.footer{
+  background-image:url(/image/footer/bg-footer.jpg) ;
+  opacity: 90%;
+  color: #F7F7F7;
+}
+
+
+
+/* hidden */
+
+.hidden-left{
+  opacity: 50%;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1.5s;
+}
+.hidden-right{
+  opacity: 50%;
+  filter: blur(5px);
+  transform: translateY(-100%);
+  transition: all 1.5s;
+}
+.show {
+  opacity: 100%;
+  filter: blur(0);
+  transform: translateX(0);
+}
+

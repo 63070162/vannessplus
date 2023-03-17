@@ -1,0 +1,553 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main web page</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" />
+
+    <script src="https://kit.fontawesome.com/30c46c336b.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item">
+                <img src="/image/vanness_logo.png" alt="logo" class="logo" id="logo" />
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item has-text-weight-bold">
+                    HOME
+                </a>
+
+                <a class="navbar-item has-text-weight-bold">
+                    ABOUT US
+                </a>
+                <a class="navbar-item has-text-weight-bold">
+                    SERVICES
+                </a>
+                <a class="navbar-item has-text-weight-bold">
+                    CLIENTS
+                </a>
+                <a class="navbar-item has-text-weight-bold">
+                    JOB
+                </a>
+                <a class="navbar-item has-text-weight-bold">
+                    CAREER TIPS
+                </a>
+                <a class="navbar-item has-text-weight-bold">
+                    CONTACT US
+                </a>
+                <a class="navbar-item has-text-weight-bold">
+                    DEPOSIT RESUME
+                </a>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a href="https://www.facebook.com/profile.php?id=100069797978026" target="_blank"
+                            style="text-decoration: none">
+                            <button class="button is-link mr-3">
+                                <span class="icon">
+                                    <img src="/image/facebook_logo_test.png" alt="facebook" style="width: 200%;" />
+                                </span>
+                                <span>Facebook</span>
+                            </button>
+                        </a>
+                        <a href="https://th.linkedin.com/in/vanness-plus-consulting-b5568a128" target="_blank"
+                            style="text-decoration: none">
+                            <button class="button is-info">
+                                <span class="icon">
+                                    <img src="/image/linkedin_logo_test.png" alt="facebook" />
+                                </span>
+                                <span>Linked-in</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- location -->
+    <div class="columns">
+        <div class=" location has-text-centered p-5 column is-full">
+            <a href="https://www.google.co.th/maps/place/%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%A3+%E0%B8%AA%E0%B9%81%E0%B8%84%E0%B8%A7%E0%B8%A3%E0%B9%8C/@13.7223295,100.5271045,17z/data=!3m1!4b1!4m6!3m5!1s0x30e29f32b26f61a9:0x5451ae0d2c1a8c63!8m2!3d13.7223243!4d100.5292932!16s%2Fg%2F1ptxyntf9?hl=th"
+                target="_blank" class="linklocation" style="text-decoration: none">
+                <strong class="has-text-black"> <i class="fas fa-map-marker-alt"></i> 98 SATHORN SQUARE BUILDING,
+                    NORTHSATHORN ROAD,SILOM,BANGRAK,BANGKOK 10500</strong>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- imageslide -->
+        <div class="container">
+            <div id="slider">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-3by1 is-covered">
+                            <img src="/image/image_slide/image_slide_2.jpg" alt="" />
+                        </figure>
+                    </div>
+                    <div class="card-content slider-text has-text-white has-text-weight-bold hidden-right">
+                        <p class="is-size-4"> WELCOME TO VANNESS PLUS</p>
+                        <p class="is-size-7">VANNESS PLUS CONSULTING COMPANY LIMITED IS PROFESSIONAL RECRUITMENT
+                            SERVICE COMPANY <br> INFORMATION TECHNOLOGY.
+                        </p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-image">
+                        <figure class="image is-3by1 is-covered">
+                            <img src="/image/image_slide/image_slide_1.jpg" alt="" />
+                        </figure>
+                    </div>
+                    <div class="card-content slider-text has-text-white has-text-weight-bold hidden-right">
+                        <p class="is-size-4"> WELCOME TO VANNESS PLUS</p>
+                        <p class="is-size-7">VANNESS PLUS CONSULTING COMPANY LIMITED IS PROFESSIONAL RECRUITMENT
+                            SERVICE COMPANY <br> INFORMATION TECHNOLOGY.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- news-content -->
+        <div class="container mt-6 mb-6">
+            <div class="columns">
+                    <div class="column is-4 hidden-left">
+                        <p class="is-size-4 has-text-weight-bold has-text-black ">NEWS</p>
+                        <p class="mb-3  mt-4 ">A great opportunities for companies and candidates to achieve your goals
+                            with our services in providing a highly skills and
+                            experienced professionals to your company.</p>
+                        <button class=" button is-dark is-outlined mt-3">
+                            READ MORE
+                        </button>
+                    </div>
+                <div class="column is-8 mb-5">
+                    <div id="slider2">
+                        <div class="card mr-4">
+                            <div class="card-image">
+                                <figure class="image is-is-full is-covered">
+                                    <img src="/image/news/news1.png" alt="" />
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="card mr-4">
+                            <div class="card-image">
+                                <figure class="image is-is-full is-covered">
+                                    <img src="/image/news/news2.png" alt="" />
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="card mr-4">
+                            <div class="card-image">
+                                <figure class="image is-full is-covered">
+                                    <img src="/image/news/news3.png" alt="" />
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="card mr-4">
+                            <div class="card-image">
+                                <figure class="image is-is-full is-covered">
+                                    <img src="/image/news/news4.png" alt="" />
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- about-us-content -->
+    <div class="container mt-6 mb-6">
+        <div class="columns hidden-right">
+            <div class="column is-6">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-covered">
+                            <img src="/image/about-us/thumb_Professional.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+                <div class="column is-6">
+                    <div class="header">
+                        <p class="is-size-4 has-text-weight-bold has-text-right has-text-black ">ABOUT US</p>
+                        <p class="has-text-right mb-3 has-text-weight-bold has-text-black ">who we are</p>
+                    </div>
+    
+                    <p class=" mt-4 has-text-right ">Bridging between IT professionals and companies A professional
+                        recruitment for IT
+                        business,
+                        specializing in providing the most suitable qualified candidates to our esteemed clients for IT
+                        business
+                        of all levels, be it on a permanent, contractor or temporary basis. Our main purpose is to help our
+                        esteemed
+                        clients to get the right people into the right job within the shortest time. With our vast network
+                        in IT business,
+                        extensive databases and defined recruitment process, we have been successfully bridging talented
+                        candidates of the
+                        highest caliber to employers who only want the right one in team work.
+                    </p>
+                </div>
+        </div>
+    </div>
+
+
+    <!-- our-service-content -->
+    <div class="container mt-6 mb-6">
+        <div class="columns">
+            <div class="column is-full hidden-left">
+                <div class="header">
+                    <p class="is-size-4 has-text-weight-bold has-text-black ">OUR SERVICE</p>
+                    <p class="has-text-weight-bold has-text-black ">IT Professional Recruitment Services</p>
+                </div>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column is-12">
+                <div class="columns">
+                    <div class="column is-3 ">
+                        <div class=" service-content">
+                            <p class="has-text-weight-bold">EXECUTIVE SEARCH AND SELECTION</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <img class="img-service" src="/image/service/service_1.png" alt="">
+                    </div>
+                    <div class="column is-3">
+                        <div class=" service-content">
+                            <p class="has-text-weight-bold">PROFESSIONAL OUTSOURCING</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <img class="img-service" src="/image/service/service_2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column is-12">
+                <div class="columns">
+                    <div class="column is-3">
+                        <div class=" service-content">
+                            <p class="has-text-weight-bold">HR SERVICES AND SOLUTIONS</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <img class="img-service" src="/image/service/service_3.png" alt="">
+                    </div>
+                    <div class="column is-3">
+                        <div class=" service-content">
+                            <p class="has-text-weight-bold">CAREER CONSULTANCY</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <img class="img-service" src="/image/service/service_4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column is-12">
+                <div class="columns">
+                    <div class="column is-3">
+                        <div class=" service-content">
+                            <p class="has-text-weight-bold">TRAINING</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <img class="img-service" src="/image/service/service_5.png" alt="">
+                    </div>
+                    <div class="column is-3">
+                        <div class=" service-content">
+                            <p class="has-text-weight-bold">VANNESS PLUS</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <img class="img-service" src="/image/service/service_6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- our-client-content -->
+    <div class="container mt-6 mb-6">
+        <div class="columns">
+            <div class="column is-full hidden-left">
+                <p class="is-size-4 has-text-weight-bold has-text-black ">OUR CLIENTS</p>
+                <p class="has-text-weight-bold has-text-black ">Vanness Plus Consulting Company Limited has a vast
+                    talented candidate database.
+                    Our teams are specialists in recruiting the best IT resources with proficiency in the following
+                    domains</p>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column is-full">
+                <div class='card equal-height'>
+                    <div class="card-image has-text-centered">
+                        <figure class="image is-inline-block mr-6 clients-logo">
+                            <img class="is-rounded" src="/image/our_clients/bank_logo.png" />
+                        </figure>
+                        <figure class="image is-inline-block mr-6 clients-logo">
+                            <img class="is-rounded" src="/image/our_clients/finance_logo.png" />
+                        </figure>
+                        <figure class="image is-inline-block mr-6 clients-logo">
+                            <img class="is-rounded" src="/image/our_clients/retail_logo.png" />
+                        </figure>
+                        <figure class="image is-inline-block mr-6 clients-logo">
+                            <img class="is-rounded" src="/image/our_clients/menufacturing_logo.png" />
+                        </figure>
+                        <figure class="image is-inline-block mr-6 clients-logo">
+                            <img class="is-rounded" src="/image/our_clients/professional_logo.png" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-6 mb-6">
+        <div class="columns hidden-right">
+            <div class="column is-4">
+                <figure class="image">
+                    <img class="is-rounded" src="/image/our_clients/client-content-1.png" alt="">
+                </figure>
+            </div>
+            <div class="column is-8">
+                <p class="is-size-4 has-text-weight-semibold has-text-black has-text-right ">10 TIPS FOR RETAINING TOP IT
+                    TALENT</p>
+                <p class="has-text-right  mt-4 ">As the effects of the non-prime crisis continue to thin the ranks of
+                    mortgage
+                    professionals, retaining top brokers
+                    will become increasingly difficult. Good organizations work hard at keeping their best people. But
+                    in tough times,
+                    those people are the ones who are recruited to another company quickly.How can you retain your best
+                    talent during these
+                    turbulent times? Here are 10 factors that might help
+                </p>
+                <div class="buttons is-right">
+                    <button class=" button is-dark is-outlined mt-3">
+                        READ MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-6 mb-6">
+        <div class="columns hidden-left">
+            <div class="column is-8">
+                <p class="is-size-4 has-text-weight-semibold has-text-black ">8 BAD MISTAKES THAT MAKE GOOD EMPLOYEES
+                    LEAVE</p>
+                <p class=" mt-4 ">It’s tough to hold on to good employees, but it shouldn’t be. Most of the mistakes that
+                    companies
+                    make are easily avoided. When you do make mistakes, your best employees are the first to go, because
+                    they have the most options.If you can’t keep your best employees engaged, you can’t keep your best
+                    employees. While this should be common sense, it isn’t common enough. A survey by CEB found that
+                    one-third of star employees feel disengaged from their employer and are already looking for a new
+                    job.
+                </p>
+                <button class=" button is-dark is-outlined mt-3">
+                    READ MORE
+                </button>
+            </div>
+            <div class="column is-4">
+                <figure class="image">
+                    <img class="is-rounded" src="/image/our_clients/client-content-2.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <!-- job-content -->
+    <div class="container mt-6 mb-6">
+        <div class="columns hidden-right">
+            <div class="column is-6">
+                <figure class="image">
+                    <img class="is-rounded" src="/image/job-seekers/job.jpg" alt="">
+                </figure>
+            </div>
+            <div class="column is-6 ">
+                <div class="content ">
+                    <p class="is-size-4 has-text-weight-semibold has-text-black ">JOB SEEKERS</p>
+                    <p class="is-size-5 has-text-black">CHOOSE JOB</p>
+                    <ul>
+                        <li class="has-text-weight-semibold">Project Manager/Project Management Officer</li>
+                        <li class="has-text-weight-semibold">SAP FI/CO <strong class="has-text-danger">(1 year
+                                contract)</strong>
+                        <li class="has-text-weight-semibold">Programmer Cobol <strong class="has-text-danger">Thai
+                                Nationality Only</strong></li>
+                        <li class="has-text-weight-semibold">JAVA Application Developer</li>
+                        <li class="has-text-weight-semibold">Graphic Designer</li>
+                    </ul>
+                    <button class=" button is-dark is-outlined mt-3">
+                        JOB MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- career-tips-content -->
+    <div class="container mt-6 mb-6 hidden-left">
+        <div class="columns ">
+            <div class="column is-full">
+                <p class="is-size-4 has-text-weight-bold has-text-black">CAREER TIPS</p>
+            </div>
+        </div>
+        <div class="columns ">
+            <div class="column is-8">
+                <p class="is-size-5 has-text-weight-semibold has-text-black">HOW TO WRITE A SUCCESSFUL RESUME</p>
+                <p class=" mt-4 ">Nowadays, the technology literally facilitates our lives and enhances the opportunity
+                    to find a job,
+                    making it much easier to access the company via Internet; meanwhile it could be a threat that leads
+                    the world to be more competitive. Resume could be one of the keys that represents you and shows your
+                    qualifications to the employer. Therefore; it’s a job of the job seekers to pay attention to the
+                    resume
+                    which could affect their lives and also their futures. Today I have some tricks to guide you to
+                    write a successful resume.
+                </p>
+                <button class=" button is-dark is-outlined mt-3">
+                    READ MORE
+                </button>
+            </div>
+            <div class="column is-4">
+                <figure class="image">
+                    <img class="is-rounded" src="/image/career-tips/career.jpg" alt="">
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-6">
+        <div class="columns hidden-right">
+            <div class="column is-4">
+                <figure class="image">
+                    <img class="is-rounded" src="/image/career-tips/career-plan.png" alt="">
+                </figure>
+            </div>
+            <div class="column is-8">
+                <p class="is-size-5 has-text-weight-semibold has-text-black has-text-right ">PLAN YOUR SUCCESSFULL CAREER
+                </p>
+                <p class="has-text-right mt-4 ">STEP 1: SELF EXPLORATION <br>
+                    The most important thing you should do before planning your successful career path is evaluating
+                    yourself. <br>
+                    We suggest that you should examine your personality, skills, life-goal and values through
+                    self-assessment.
+                </p>
+                <div class="buttons is-right">
+                    <button class=" button is-dark is-outlined mt-3">
+                        READ MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-6 mb-6">
+        <div class="columns hidden-left">
+            <div class="column is-8">
+                <p class="is-size-5 has-text-weight-semibold has-text-black ">CHECK YOUR CAREER APTITUDE</p>
+                <p class=" mt-4 ">Everyone has his or her unique personality and experiences but there are many
+                    organizations try
+                    to test candidate’s personality to confirm that candidates will be fit with the organization and
+                    they will work
+                    for them in long term. The most important test that usually used is Career Aptitude Test. Many
+                    organizations use
+                    it for screening applicants. It consists of 4 parts which are Skills, Interests, Work Styles, and
+                    Values. Before
+                    you are going to an interview or changing your job, you should explore yourself as the lists below.
+                </p>
+                <button class=" button is-dark is-outlined mt-3">
+                    READ MORE
+                </button>
+            </div>
+            <div class="column is-4">
+                <figure class="image image is-1by1">
+                    <img class="is-rounded" src="/image/career-tips/career-aptitude.jpg" alt="">
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-6 mb-6">
+        <div class="columns hidden-right">
+            <div class="column is-4">
+                <figure class="image">
+                    <img class="is-rounded" src="/image/career-tips/interview1.png" alt="">
+                </figure>
+            </div>
+            <div class="column is-8 ">
+                <p class="is-size-5 has-text-weight-semibold has-text-black has-text-right ">HOW TO ANSWER TOP 10
+                    INTERVIEW QUESTIONS</p>
+                <p class="has-text-right mt-4 ">Talking about recruitment process, one of the most important parts that
+                    affects the candidates
+                    and also the employers’ decision making would probably be the Interview Session. Lots of people make
+                    a mistake here by ignoring
+                    preparing the answer for the popular interview questions. It’s better to know how to answer properly
+                    to each question that you
+                    are surely be asked. You will be less nervous; but more confident on your answer.
+
+
+                </p>
+                <div class="buttons is-right">
+                    <button class=" button is-dark is-outlined mt-3">
+                        READ MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer pb-4">
+        <div class="container">
+            <div class="content">
+                <p class="is-size-5 has-text-weight-bold">CONTACT US</p>
+                <p><i class="fas fa-map-marker-alt pr-3"></i>98 Sathorn Square Building, North Sathorn Road,
+                    Silom,Bangrak,Bangkok 10500</p>
+                <p><i class="fas fa-envelope pr-3"></i>hr@vannessplus.com</p>
+                <p><i class="fas fa-phone pr-3"></i> 084-922-3468</p>
+            </div>
+        </div>
+        <div class="copyright has-text-centered mt-6">
+            <div class="container">
+                <p class="text-copyright has-text-weight-semibold">
+                    © 2016 Vanness Plus
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script>
+    bulmaCarousel.attach('#slider', {
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        infinite: true,
+    });
+    bulmaCarousel.attach('#slider2', {
+        slidesToScroll: 1,
+        slidesToShow: 2,
+        infinite: true,
+    });
+</script>
+
+</html>
